@@ -17,7 +17,7 @@ list_mp3 = collection_tiktok.find(
          {"is_texted": 0},
          {"is_texted": {"$exists": False}}
      ]},
-    {"_id": 1, "playUrl": 1}).limit(100)
+    {"_id": 1, "playUrl": 1}).limit(500)
 
 
 def get_name(_mp3):
